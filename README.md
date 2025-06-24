@@ -1,7 +1,7 @@
 # Nexus-Auto-connect
 Guide: F12 => console = Paste => enter ok
 
-
+```
 setInterval(() => {
   const toggleButton = document.getElementById('connect-toggle-button');
   if (toggleButton) {
@@ -16,3 +16,4 @@ setInterval(() => {
     console.warn('❌ Tombol tidak ditemukan di halaman.');
   }
 }, 1000); // cek setiap 1 detik
+```
