@@ -8,12 +8,12 @@ setInterval(() => {
     const isOff = toggleButton.classList.contains('border-[#79747E]');
     if (isOff) {
       toggleButton.click();
-      console.log('⛏️ Mining OFF terdeteksi — tombol otomatis diklik untuk ON.');
+      console.log('ON - OFF Connect');
     } else {
-      console.log('✅ Mining masih aktif.');
+      console.log('active');
     }
   } else {
-    console.warn('❌ Tombol tidak ditemukan di halaman.');
+    console.warn('OFF');
   }
-}, 1000); // cek setiap 1 detik
+}, 1000); // Check ERR
 ```
